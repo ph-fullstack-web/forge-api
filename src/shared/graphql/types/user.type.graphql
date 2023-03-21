@@ -1,0 +1,19 @@
+# type User {
+#   userId: String
+#   name: String
+#   email: String
+#   employeeId: String
+#   # employee: Employee
+#   managerUserId: String
+#   managerName: String
+#   # manager: User
+#   communityId: Int
+#   # community: Community
+#   communityName: String
+# }
+type User {
+  userId: String
+  email: String
+  status: String
+  userRoles: [String]
+}

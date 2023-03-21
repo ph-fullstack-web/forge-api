@@ -1,0 +1,6 @@
+type Activity {
+  activityId: String
+  activityCategory: String
+  name: String
+  points: Int
+}

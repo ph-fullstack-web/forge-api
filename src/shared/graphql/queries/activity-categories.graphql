@@ -1,0 +1,4 @@
+type Query {
+  activityCategories: [ActivityCategory]
+  activityCategory(activityCategoryId: Int!): ActivityCategory
+}

@@ -1,0 +1,11 @@
+type Employee {
+  userId: String
+  employeeId: String
+  firstName: String
+  lastName: String
+  softvisionEmail: String
+  dateHired: String
+  position: String
+  photoSignedUrl: String
+  photoFileExtension: String
+}

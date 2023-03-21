@@ -1,0 +1,4 @@
+type ActivityStatus {
+  statusId: Int!
+  name: String
+}

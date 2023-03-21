@@ -1,0 +1,4 @@
+type Query {
+  activityStatuses: [ActivityStatus]
+  activityStatus(statusId: Int!): ActivityStatus
+}

@@ -1,0 +1,14 @@
+type CECRequest {
+  cecRequestId: String
+  userId: String!
+  activity: Activity
+  activityDescription: String
+  dateCreated: String
+  dateStarted: String
+  dateCompleted: String
+  status: String
+  dateEvaluated: String
+  approverUserId: String
+  approverComment: String
+  attachments: [CECRequestAttachment]
+}

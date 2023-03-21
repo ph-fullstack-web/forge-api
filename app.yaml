@@ -1,0 +1,3 @@
+runtime: nodejs16
+service: cec-api
+instance_class: F2

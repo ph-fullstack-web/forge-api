@@ -1,0 +1,5 @@
+type Community {
+  communityId: Int!
+  managerUserId: String!
+  name: String
+}

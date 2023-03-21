@@ -1,0 +1,4 @@
+type Lookup {
+  id: String
+  name: String
+}

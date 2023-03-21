@@ -1,0 +1,4 @@
+type ActivityCategory {
+  activityCategoryId: Int!
+  name: String
+}

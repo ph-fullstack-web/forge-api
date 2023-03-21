@@ -1,0 +1,4 @@
+type Query {
+  activities: [Activity]
+  activity(activityId: Int!): Activity
+}
