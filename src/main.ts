@@ -14,7 +14,7 @@ async function bootstrap() {
       clientEmail: AppConfig.Firebase.ClientEmail,
       privateKey: AppConfig.Firebase.PrivateKey,
     }),
-    storageBucket: 'cec-tracker.appspot.com',
+    storageBucket: AppConfig.Firebase.StorageBucket,
   });
   const app = await NestFactory.create<NestExpressApplication>(AppModule, {
     cors: true,

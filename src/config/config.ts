@@ -5,6 +5,7 @@ interface IAppConfig {
     ProjectId: string;
     ClientEmail: string;
     PrivateKey: string;
+    StorageBucket: string;
   };
 }
 
@@ -13,5 +14,6 @@ export const AppConfig: IAppConfig = {
     ProjectId: env.PROJECT_ID,
     ClientEmail: env.CLIENT_EMAIL,
     PrivateKey: env.PRIVATE_KEY,
+    StorageBucket: env.STORAGE_BUCKET,
   },
 };
